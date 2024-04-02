@@ -37,7 +37,7 @@ public class Driver {
 
                     //   .setAppPackage("com.ailebutcem")
                     //  .setAppActivity("com.ailebutcem.MainActivity")
-                    .setApp("C:\\Users\\ahmet\\IdeaProjects\\Appium_T130_NewVersion\\Apps\\Aile Bütçem_1.07_apkcombo.com.apk")
+                    .setApp("C:\\javaProje\\Appium_T130_NewVersion\\Apps\\Aile Bütçem_1.07_apkcombo.com.apk")
                     .setUdid("emulator-5556") // terminale "adb devices" yazarak cihazlarimizin tc kimlik nosuna ulasiriz kopyalayarak
                     // hangi cihaz uzerinde calismak istiyorsak onun udid sini burada gireriz
                     .setSkipUnlock(true)     // eger cihazinin ekran kilidi otomatik olarak eger kapaliysa ve acilsin istiyorsan true
