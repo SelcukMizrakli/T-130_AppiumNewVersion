@@ -14,8 +14,8 @@ public class Driver {
 
     private static IOSDriver iosDriver;
 
-    static final String TELEFONADI="Galaxy Tab S2";
-    static final String ANDROIDVERSION="7.0";
+    static final String TELEFONADI="Pixel 2";
+    static final String ANDROIDVERSION="10.0";
     static final String PLATFORM="Android";
     static final String OTOMASYON_ISMI="UiAutomator2";
 
@@ -33,12 +33,10 @@ public class Driver {
 
             UiAutomator2Options options=new UiAutomator2Options();
             options
-
-
-                    //   .setAppPackage("com.ailebutcem")
-                    //  .setAppActivity("com.ailebutcem.MainActivity")
+                    .setAppPackage("com.ailebutcem")
+                    .setAppActivity("com.ailebutcem.MainActivity")
                     .setApp("C:\\javaProje\\Appium_T130_NewVersion\\Apps\\Aile Bütçem_1.07_apkcombo.com.apk")
-                    .setUdid("emulator-5556") // terminale "adb devices" yazarak cihazlarimizin tc kimlik nosuna ulasiriz kopyalayarak
+                     // terminale "adb devices" yazarak cihazlarimizin tc kimlik nosuna ulasiriz kopyalayarak
                     // hangi cihaz uzerinde calismak istiyorsak onun udid sini burada gireriz
                     .setSkipUnlock(true)     // eger cihazinin ekran kilidi otomatik olarak eger kapaliysa ve acilsin istiyorsan true
                     // .setLanguage("En");   // uygulamanin dili
